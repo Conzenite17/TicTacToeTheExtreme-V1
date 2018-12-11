@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar prefHeight="39.0" prefWidth="400.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="New Game" />
+                  <MenuItem mnemonicParsing="false" text="Game Settings" />
+                  <MenuItem mnemonicParsing="false" text="Surrender" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="176.0" layoutY="47.0" text="00:00" />
+      <Label layoutX="168.0" layoutY="88.0" text="X's Turn" />
+      <Pane layoutX="20.0" layoutY="170.0" prefHeight="360.0" prefWidth="360.0">
+         <children>
+            <Button id="bigGrid0" disable="true" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" />
+            <Button id="bigGrid1" disable="true" layoutX="120.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" />
+            <Button id="bigGrid2" disable="true" layoutX="240.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" />
+            <Button id="bigGrid3" disable="true" layoutY="120.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" />
+            <Button id="bigGrid4" disable="true" layoutX="120.0" layoutY="120.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" />
+            <Button id="bigGrid5" disable="true" layoutX="240.0" layoutY="120.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" />
+            <Button id="bigGrid6" disable="true" layoutY="240.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" />
+            <Button id="bigGrid7" disable="true" layoutX="120.0" layoutY="240.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" />
+            <Button id="bigGrid8" disable="true" layoutX="240.0" layoutY="240.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" />
+            <Button id="smallGrid08" layoutX="80.0" layoutY="80.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid07" layoutX="40.0" layoutY="80.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid06" layoutY="80.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid05" layoutX="80.0" layoutY="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid04" layoutX="40.0" layoutY="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid03" layoutY="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid02" layoutX="80.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid01" layoutX="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid00" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid10" layoutX="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid11" layoutX="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid12" layoutX="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid13" layoutX="120.0" layoutY="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid14" layoutX="160.0" layoutY="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid15" layoutX="200.0" layoutY="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid16" layoutX="120.0" layoutY="80.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid17" layoutX="160.0" layoutY="80.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid18" layoutX="200.0" layoutY="80.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid20" layoutX="240.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid21" layoutX="280.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid22" layoutX="320.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid23" layoutX="240.0" layoutY="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid24" layoutX="280.0" layoutY="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid25" layoutX="320.0" layoutY="40.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid26" layoutX="240.0" layoutY="80.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid27" layoutX="280.0" layoutY="80.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid28" layoutX="320.0" layoutY="80.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid30" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid31" layoutX="40.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid32" layoutX="80.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid33" layoutY="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid34" layoutX="40.0" layoutY="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid35" layoutX="80.0" layoutY="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid36" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid37" layoutX="40.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid38" layoutX="80.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid40" layoutX="120.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid41" layoutX="160.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid42" layoutX="200.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid43" layoutX="120.0" layoutY="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid44" layoutX="160.0" layoutY="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid45" layoutX="200.0" layoutY="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid46" layoutX="120.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid47" layoutX="160.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid48" layoutX="200.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid50" layoutX="240.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid51" layoutX="280.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid52" layoutX="320.0" layoutY="120.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid53" layoutX="240.0" layoutY="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid54" layoutX="280.0" layoutY="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid55" layoutX="320.0" layoutY="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid56" layoutX="240.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid57" layoutX="280.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid58" layoutX="320.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid60" layoutY="240.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid61" layoutX="40.0" layoutY="240.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid62" layoutX="80.0" layoutY="240.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid63" layoutY="280.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid64" layoutX="40.0" layoutY="280.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid65" layoutX="80.0" layoutY="280.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid66" layoutY="320.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid67" layoutX="40.0" layoutY="320.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid68" layoutX="80.0" layoutY="320.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid70" layoutX="120.0" layoutY="240.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid71" layoutX="160.0" layoutY="240.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid72" layoutX="200.0" layoutY="240.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid73" layoutX="120.0" layoutY="280.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid74" layoutX="160.0" layoutY="280.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid75" layoutX="200.0" layoutY="280.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid76" layoutX="120.0" layoutY="320.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid77" layoutX="160.0" layoutY="320.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid78" layoutX="200.0" layoutY="320.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid80" layoutX="240.0" layoutY="240.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid81" layoutX="280.0" layoutY="240.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid82" layoutX="320.0" layoutY="240.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid83" layoutX="240.0" layoutY="280.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid84" layoutX="280.0" layoutY="280.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid85" layoutX="320.0" layoutY="280.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid86" layoutX="240.0" layoutY="320.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid87" layoutX="280.0" layoutY="320.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+            <Button id="smallGrid88" layoutX="320.0" layoutY="320.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
